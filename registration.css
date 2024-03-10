@@ -1,0 +1,44 @@
+body {
+    background: #333;
+}
+
+form {
+    background: #333;
+    border: 1px solid #575558;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 350px;
+    color: #ffffff;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #575558;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #575558;
+}
+
+a {
+    color: #575558; 
+}
